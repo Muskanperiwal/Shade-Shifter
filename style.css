@@ -1,0 +1,65 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex ;
+    justify-content:center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 15px ;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 64px 48px 16px 96px;
+
+}
+#grey{
+    background-color: grey;
+}
+#pink{
+    background-color: pink;
+}
+#aqua{
+    background-color:aqua;
+}
+#yellow{
+    background-color:yellow;
+}
+
+#plum{
+    background-color:plum;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    font-size: 16px;
+}
+.navbar ul li {
+    list-style-type: none;
+    float: left;
+}
+
